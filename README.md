@@ -17,12 +17,15 @@ conda install shapely fiona pyproj
 pip install unidecode
 ```
 
-You'll also need a copy of [`ni`](http://github.com/Factual/ni), which you can install via:
+You'll also need a copy of the latest develop version of `ni`, Factual employees can get it [here](http://github.com/Factual/ni), and [Spencer Tipping](http://github.com/spencertipping), the lead developer, also has a completely open source edition at [here](http://github.com/spencertipping/ni)
+
+Install via:
 
 ```
 git clone git@github.com:Factual/ni
 cd ni
 ln -s $PWD/ni /somewhere/on/your/path/ni
+git checkout develop && git pull
 ```
 
 You'll probably need to install some other dependencies, depending on your machine.
